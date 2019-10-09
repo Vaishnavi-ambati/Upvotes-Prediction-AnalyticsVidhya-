@@ -14,11 +14,13 @@ Crowd sourced online content platforms have a constant need to identify the best
     * Observed the correlation between the independent columns and independent columns with target column.
    
 2. In the first notebook file following tasks are performed:
+   
    PART 1:
     * Dropped ['Tag','ID','Username'] columns because of low correlation value with the target variable.
     * Applied PolynomialFeatures of degree 3.
     * Traind the models with Linear regression.
     * Also used Ensemble learning.
+   
    PART 2:
     * Dropped ['Tag','ID','Username'] columns because of low correlation value with the target variable.
     * Applied PolynomialFeatures of degree 3.
